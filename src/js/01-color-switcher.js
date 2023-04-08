@@ -1,4 +1,4 @@
-refs = {
+const refs = {
   body: document.querySelector('body'),
   start: document.querySelector('[data-start]'),
   stop: document.querySelector('[data-stop]'),

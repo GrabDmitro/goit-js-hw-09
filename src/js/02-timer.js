@@ -69,8 +69,8 @@ const timer = {
     this.intervalId = setInterval(() => {
       const now = Date.now();
       const deltaTime = startTime - now;
-      time = convertMs(deltaTime);
-      console.log(time);
+      const time = convertMs(deltaTime);
+      // console.log(time);
       setTime(time);
       if (deltaTime <= 0) {
         clearInterval(this.intervalId);
